@@ -96,11 +96,6 @@ export class TrackTeamComponent implements OnInit, OnDestroy {
                 'conference',
                 teamName
               ),
-              team_division: this.setTeamData(
-                teamInfo[0],
-                'division',
-                teamName
-              ),
               team_id: Number(this.setTeamData(teamInfo[0], 'id', teamName)),
             };
             this.selectedTeamInfo.push(selectedTeam);

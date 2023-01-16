@@ -55,7 +55,6 @@ export class TeamResultsComponent implements OnInit, OnDestroy {
               'conference',
               payLoad
             ),
-            team_division: this.setTeamData(teamInfo[0], 'division', payLoad),
           };
         })
       )
